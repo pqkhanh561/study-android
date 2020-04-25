@@ -33,7 +33,7 @@ Messenger command the camera to start
 #### Types of Intents
 ##### Explicit Intents 
 It is the fixed action that the activity A point to activity B
-'''
+'''java
 Intent i = new Intent(this, TargetActivity.class);
 '''
 
