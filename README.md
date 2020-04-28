@@ -7,11 +7,8 @@ A app which is used to read paper has 2 columns: 1 is the list of papers and 2 i
 The phone layout will not have enough space for viewing details so define 2 fragments (meaning 2 activities) will be reasonable.
 
 **How to create**
-	- Extend **Fragments**
+	- Extend Fragments
 	- Declare it in main activity layout file (*activity_main.xml*)
-
-#### FRAGMENT LIFE ECYCLE
-
 
 
 ### INTENTS AND  FILTERS
@@ -32,10 +29,13 @@ Messenger command the camera to start
 
 #### Types of Intents
 ##### Explicit Intents 
-It is the fixed action that the activity A point to activity B
+We will declare the activy which handle the intent.
 '''java
 Intent i = new Intent(this, TargetActivity.class);
 '''
+
+#### Implict Intents
+The android will find a resolver for your intents which satisfies your order
 
 
 
